@@ -72,6 +72,7 @@ body {
 }
 .margin-svg {
   margin-right: 10px;
+  align-items: center;
 }
 .column-nav-primary {
   gap: 46px;
@@ -107,7 +108,7 @@ body {
 
 .main-section {
   background: var(--bg-color-dark);
-  background-image: url("./images/img17.jpg");
+  background-image: url("../images/img17.jpg");
 }
 .button-h1 {
   text-align: center;
@@ -195,6 +196,9 @@ body {
   justify-content: space-between;
   column-gap: 30px;
 }
+.customers {
+  background: var(--bg-color-primary);
+}
 .foot {
   background: var(--bg-color-dark);
   padding: 60px 0;
@@ -271,7 +275,6 @@ body {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
 .flex {
   display: flex;
 }
@@ -291,6 +294,9 @@ body {
 }
 .join-us {
   padding-top: 12px;
+}
+.margin-address {
+  margin-right: 70px;
 }
 .column-svg-icon {
   column-gap: 10px;
